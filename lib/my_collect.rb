@@ -1,12 +1,12 @@
 def my_collect(arg)
   
   i = 0
-  newarray
+  newarray = []
   while i < arg.length
-    newarray << 
+    newarray << yield arg[i]
     i += 1
   end
-  
+  newarray
 end
 
 
