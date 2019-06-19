@@ -2,7 +2,7 @@ def my_collect(arg)
   
   i = 0
  
-  while i < a.length
+  while i < arg.length
     i = i + 1
   end
   
